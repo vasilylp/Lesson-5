@@ -4,8 +4,6 @@
 Также нельзя использовать циклы. """
 
 def summ_numbers(a, b):
-    if a == 0 :
-        return b
     if b == 0:
         return a
     return summ_numbers(a + 1, b - 1)
